@@ -1,15 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserCapabilityInfo = exports.UserSubsInfo = void 0;
+exports.UserSubsInfoRequest = exports.UserCapabilityInfo = exports.UserSubsInfoResponse = void 0;
+var UserSubsInfoRequest = (function () {
+    function UserSubsInfoRequest() {
+    }
+    return UserSubsInfoRequest;
+}());
+exports.UserSubsInfoRequest = UserSubsInfoRequest;
 var UserCapabilityInfo = (function () {
     function UserCapabilityInfo() {
     }
     return UserCapabilityInfo;
 }());
 exports.UserCapabilityInfo = UserCapabilityInfo;
-var UserSubsInfo = (function () {
-    function UserSubsInfo() {
+var UserSubsInfoResponse = (function () {
+    function UserSubsInfoResponse() {
     }
-    return UserSubsInfo;
+    return UserSubsInfoResponse;
 }());
-exports.UserSubsInfo = UserSubsInfo;
+exports.UserSubsInfoResponse = UserSubsInfoResponse;

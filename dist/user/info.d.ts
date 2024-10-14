@@ -1,3 +1,6 @@
+declare class UserSubsInfoRequest {
+    id_user: string;
+}
 declare class UserCapabilityInfo {
     id: number;
     name: string;
@@ -5,11 +8,11 @@ declare class UserCapabilityInfo {
     current: number;
     routingKey: string;
 }
-declare class UserSubsInfo {
+declare class UserSubsInfoResponse {
     id: number;
     name: string;
     startDate: string;
     endDate: string;
     capabilities: UserCapabilityInfo[];
 }
-export { UserSubsInfo, UserCapabilityInfo };
+export { UserSubsInfoResponse, UserCapabilityInfo, UserSubsInfoRequest };

@@ -1,3 +1,7 @@
+class UserSubsInfoRequest {
+  id_user: string;
+}
+
 class UserCapabilityInfo {
   id: number;
   name: string;
@@ -6,7 +10,7 @@ class UserCapabilityInfo {
   routingKey: string;
 }
 
-class UserSubsInfo {
+class UserSubsInfoResponse {
   id: number;
   name: string;
   startDate: string;
@@ -14,4 +18,4 @@ class UserSubsInfo {
   capabilities: UserCapabilityInfo[];
 }
 
-export { UserSubsInfo, UserCapabilityInfo };
+export { UserSubsInfoResponse, UserCapabilityInfo, UserSubsInfoRequest };
