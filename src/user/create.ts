@@ -1,9 +1,9 @@
 class CreateUserSubsRequest {
-  idUser: number;
-  idSubstype: number;
-  startDate: string;
-  endDate: string;
-  paymentId: string;
+  id_user: number;
+  id_substype: number;
+  start_date: string;
+  end_date: string;
+  payment_id: string;
 }
 
 class CreateUserSubsResponse {
