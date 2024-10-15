@@ -1,5 +1,5 @@
 class SubsTypeInfoRequest {
-  id_user: number;
+  id_user: string;
   language: string;
 }
 
