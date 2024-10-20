@@ -6,13 +6,13 @@ declare class UserCapabilityInfo {
     name: string;
     quota: number;
     current: number;
-    routingKey: string;
+    routing_key: string;
 }
 declare class UserSubsInfoResponse {
     id: number;
     name: string;
-    startDate: string;
-    endDate: string;
+    start_date: string;
+    end_date: string;
     capabilities: UserCapabilityInfo[];
 }
 export { UserSubsInfoResponse, UserCapabilityInfo, UserSubsInfoRequest };
