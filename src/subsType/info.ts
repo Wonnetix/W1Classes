@@ -1,12 +1,11 @@
+import { TranslatableResource } from "../generic";
+
 class SubsTypeInfoRequest {
   id_user: string;
   language: string;
 }
 
-class SubsTypeInfoResponse {
-  id: number;
-  name: string;
-  description: string;
+class SubsTypeInfoResponse extends TranslatableResource {
   is_default: boolean;
 }
 
