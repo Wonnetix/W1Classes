@@ -15,19 +15,19 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SubsTypeInfoResponse = exports.SubsTypeInfoRequest = void 0;
+exports.MarketplaceCategoriesResponse = exports.MarketplaceCategoriesRequest = void 0;
 var generic_1 = require("../generic");
-var SubsTypeInfoRequest = (function () {
-    function SubsTypeInfoRequest() {
+var MarketplaceCategoriesRequest = (function () {
+    function MarketplaceCategoriesRequest() {
     }
-    return SubsTypeInfoRequest;
+    return MarketplaceCategoriesRequest;
 }());
-exports.SubsTypeInfoRequest = SubsTypeInfoRequest;
-var SubsTypeInfoResponse = (function (_super) {
-    __extends(SubsTypeInfoResponse, _super);
-    function SubsTypeInfoResponse() {
+exports.MarketplaceCategoriesRequest = MarketplaceCategoriesRequest;
+var MarketplaceCategoriesResponse = (function (_super) {
+    __extends(MarketplaceCategoriesResponse, _super);
+    function MarketplaceCategoriesResponse() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return SubsTypeInfoResponse;
+    return MarketplaceCategoriesResponse;
 }(generic_1.TranslatableResource));
-exports.SubsTypeInfoResponse = SubsTypeInfoResponse;
+exports.MarketplaceCategoriesResponse = MarketplaceCategoriesResponse;

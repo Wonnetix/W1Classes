@@ -8,22 +8,26 @@ class MarketplaceProductRequest {
 }
 
 class MarketplaceProductResponse extends TranslatableResource {
-	components: MarketplaceProductComponentResponse[];
-	price: number;
-	price_asset: AssetInfo;
+  components: MarketplaceProductComponentResponse[];
+  price: number;
+  price_asset: AssetInfo;
 }
 
 class MarketplaceProductComponentResponse {
-	quantity: number;
-	capability?: MarketplaceProductCapabilityInfo;
-	asset?: AssetInfo;
+  quantity: number;
+  capability?: MarketplaceProductCapabilityInfo;
+  asset?: AssetInfo;
 }
 
 class MarketplaceProductCapabilityInfo extends TranslatableResource {
-	periodicity: number;
-	unit: string;
-	precision: number;
-	upgradeable: boolean;
+  periodicity: number;
+  unit: string;
+  precision: number;
+  upgradeable: boolean;
 }
 
-export { MarketplaceProductRequest, MarketplaceProductResponse, MarketplaceProductComponentResponse };
+export {
+  MarketplaceProductRequest,
+  MarketplaceProductResponse,
+  MarketplaceProductComponentResponse,
+};

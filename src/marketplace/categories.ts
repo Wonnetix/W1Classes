@@ -6,8 +6,6 @@ class MarketplaceCategoriesRequest {
   id_asset?: string;
 }
 
-class MarketplaceCategoriesResponse extends TranslatableResource {
-
-}
+class MarketplaceCategoriesResponse extends TranslatableResource {}
 
 export { MarketplaceCategoriesRequest, MarketplaceCategoriesResponse };

@@ -15,19 +15,21 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SubsTypeInfoResponse = exports.SubsTypeInfoRequest = void 0;
+exports.AssetTypeInfo = exports.AssetInfo = void 0;
 var generic_1 = require("../generic");
-var SubsTypeInfoRequest = (function () {
-    function SubsTypeInfoRequest() {
-    }
-    return SubsTypeInfoRequest;
-}());
-exports.SubsTypeInfoRequest = SubsTypeInfoRequest;
-var SubsTypeInfoResponse = (function (_super) {
-    __extends(SubsTypeInfoResponse, _super);
-    function SubsTypeInfoResponse() {
+var AssetInfo = (function (_super) {
+    __extends(AssetInfo, _super);
+    function AssetInfo() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return SubsTypeInfoResponse;
+    return AssetInfo;
 }(generic_1.TranslatableResource));
-exports.SubsTypeInfoResponse = SubsTypeInfoResponse;
+exports.AssetInfo = AssetInfo;
+var AssetTypeInfo = (function (_super) {
+    __extends(AssetTypeInfo, _super);
+    function AssetTypeInfo() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return AssetTypeInfo;
+}(generic_1.TranslatableResource));
+exports.AssetTypeInfo = AssetTypeInfo;
