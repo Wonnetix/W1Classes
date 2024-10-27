@@ -25,4 +25,7 @@ npm install git+https://github.com/Wonnetix/W1Classes.git
 cd ./packages/fast-gateway
 npx prisma generate
 
+cd ../subscription-service
+npx prisma generate
+
 cd ../../W1Classes
