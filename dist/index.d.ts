@@ -3,3 +3,4 @@ export * from "./userSubs/create";
 export * from "./subsType/info";
 export * from "./userSubs/list";
 export * from "./queue/GenericCapabilityPayload";
+export * from "./queue/QueuePublishRequest";
