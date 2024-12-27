@@ -1,5 +1,5 @@
 export interface GenericCapabilityPayload {
-  id_user: number;
+  id_user: string;
   quantity: number;
   timestamp: string;
 }
