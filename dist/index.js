@@ -16,6 +16,8 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./userSubs/info"), exports);
 __exportStar(require("./userSubs/create"), exports);
+__exportStar(require("./userAssets/info"), exports);
+__exportStar(require("./userAssets/transaction"), exports);
 __exportStar(require("./subsType/info"), exports);
 __exportStar(require("./userSubs/list"), exports);
 __exportStar(require("./queue/GenericCapabilityPayload"), exports);

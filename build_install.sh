@@ -28,4 +28,13 @@ npx prisma generate
 cd ../subscription-service
 npx prisma generate
 
-cd ../../W1Classes
+cd ../../../FastCarBackend
+npm install git+https://github.com/Wonnetix/W1Classes.git
+
+cd ../FastCarApp
+npm install git+https://github.com/Wonnetix/W1Classes.git
+
+cd ../FastCarShared
+npm install git+https://github.com/Wonnetix/W1Classes.git
+
+cd ../W1Classes
