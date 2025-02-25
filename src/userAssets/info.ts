@@ -1,15 +1,12 @@
-import { AssetInfo } from "../asset/info";
-
 class UserAssetsInfoRequest {
   id_user: string;
-  id_asset?: string;
+  id_asset?: number;
 }
 
 class UserAssetInfo {
-  id_asset: string;
+  id_asset: number;
   balance: number;
   update_time: string;
-  asset: AssetInfo;
 }
 
 class UserAssetsInfoResponse {

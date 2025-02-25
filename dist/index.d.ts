@@ -1,3 +1,4 @@
+export * from "./asset/info";
 export * from "./userSubs/info";
 export * from "./userSubs/create";
 export * from "./userAssets/info";

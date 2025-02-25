@@ -8,7 +8,7 @@ class AssetInfo extends TranslatableResource {
   can_transfer: boolean;
   can_deposit: boolean;
   can_withdraw: boolean;
-  type: AssetTypeInfo;
+  type?: AssetTypeInfo;
 }
 
 class AssetTypeInfo extends TranslatableResource {
