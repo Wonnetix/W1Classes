@@ -10,8 +10,7 @@ declare class UserAssetTransactionLine {
     id_user: string;
     id_asset: string;
     amount: number;
-    balance: number;
-    exchange_rate: number;
+    payment_id: string;
 }
 declare class UserAssetTransactionRequest {
     type: UserAssetTransactionType;
