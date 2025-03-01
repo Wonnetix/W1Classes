@@ -5,6 +5,7 @@ class UserAssetsInfoRequest {
 
 class UserAssetInfo {
   id_asset: number;
+  name: string;
   balance: number;
   update_time: string;
 }

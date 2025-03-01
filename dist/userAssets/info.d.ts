@@ -4,6 +4,7 @@ declare class UserAssetsInfoRequest {
 }
 declare class UserAssetInfo {
     id_asset: number;
+    name: string;
     balance: number;
     update_time: string;
 }

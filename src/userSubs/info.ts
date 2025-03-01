@@ -1,3 +1,5 @@
+import { UserAssetInfo } from "../userAssets/info";
+
 class UserSubsInfoRequest {
   id_user: string;
 }
@@ -16,6 +18,7 @@ class UserSubsInfoResponse {
   start_date: string;
   end_date: string;
   capabilities: UserCapabilityInfo[];
+  assets?: UserAssetInfo[];
 }
 
 export { UserSubsInfoResponse, UserCapabilityInfo, UserSubsInfoRequest };
